@@ -1,0 +1,6 @@
+model_id,provider,model_name,release_date,weights_access,deployment_channels,deployment_scope,system_card_source_id,status,notes
+openai-gpt-5.6-sol,OpenAI,GPT-5.6 Sol,2026-07-09,closed,API; consumer and enterprise products,broad,SRC-OAI-001,active,"Seed coverage; family includes Sol, Terra and Luna."
+anthropic-claude-opus-4.8,Anthropic,Claude Opus 4.8,2026-05-28,closed,API; Claude products,broad,SRC-ANT-001,active,System-card record included; evidence extraction remains incomplete in v0.1.
+google-gemini-3.1-pro,Google DeepMind,Gemini 3.1 Pro,2026-02-19,closed,API; consumer and enterprise products,broad,SRC-GDM-001,active,Frontier Safety assessment focuses on Deep Think mode where specified.
+xai-grok-4.20,xAI,Grok 4.20,2026-04-07,closed,consumer products; API,broad,SRC-XAI-001,historical,Historical checkpoint retained for longitudinal comparison; superseded in seed current coverage by Grok 4.5.
+xai-grok-4.5,xAI,Grok 4.5,2026-07-14,closed,consumer products; API,broad,SRC-XAI-002,active,Current xAI seed checkpoint; card describes a highly agentic model and separates capability from safeguards evidence.

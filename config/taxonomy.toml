@@ -1,0 +1,41 @@
+version = "0.1.0"
+cutoff_date = "2026-08-04"
+
+[domains.cyber]
+label = "Cyber capabilities and safeguards"
+description = "Vulnerability discovery, exploit development, offensive scaling, prompt injection and cyber access controls."
+
+[domains.bio_chem]
+label = "Biological and chemical capabilities"
+description = "Knowledge or agentic assistance that may materially reduce bottlenecks in harmful biological or chemical workflows."
+
+[domains.autonomy]
+label = "Autonomy and AI R&D acceleration"
+description = "Long-horizon task completion, autonomous operation, replication, adaptation and acceleration of AI research and development."
+
+[domains.persuasion]
+label = "Persuasion and harmful manipulation"
+description = "Scalable belief or behaviour change, targeted manipulation and related safeguards."
+
+[domains.agentic_behavior]
+label = "Agentic behaviour and loss-of-control indicators"
+description = "Deception, sabotage, scheming, sandbagging, reward hacking, situational awareness and oversight evasion."
+
+[domains.critical_infrastructure]
+label = "Critical-infrastructure exposure"
+description = "Deployment or integration conditions that could amplify cyber, safety, public-security or continuity-of-service impacts."
+
+[evidence_types]
+allowed = ["capability", "propensity", "safeguard", "incident", "deployment", "limitation", "trend"]
+
+[concern_levels]
+allowed = ["minimal", "guarded", "elevated", "high", "critical", "indeterminate"]
+
+[threshold_statuses]
+allowed = ["not_tested", "below_alert", "alert_reached", "near_threshold", "threshold_reached", "not_applicable", "indeterminate"]
+
+[source_independence]
+allowed = ["developer", "commissioned_external", "independent_nonprofit", "government", "academic", "regulator"]
+
+[access_levels]
+allowed = ["public_report_only", "public_product_black_box", "controlled_black_box", "grey_box", "white_box", "training_run_access", "unknown"]

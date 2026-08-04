@@ -1,0 +1,32 @@
+version = "0.1.0"
+
+[settings]
+high_concern_levels = ["high", "critical"]
+uncertain_threshold_statuses = ["not_tested", "near_threshold", "indeterminate"]
+concerning_threshold_statuses = ["alert_reached", "threshold_reached"]
+independent_source_types = ["independent_nonprofit", "government", "academic", "regulator"]
+
+[actions.additional_testing]
+priority = 1
+label = "Additional targeted testing"
+description = "Run updated, domain-specific tests using a documented scaffold, sufficient trials and adversarial variants."
+
+[actions.independent_evaluation]
+priority = 2
+label = "Qualified independent evaluation"
+description = "Commission or require an evaluator with methodological autonomy and access appropriate to the threat model."
+
+[actions.restricted_access]
+priority = 3
+label = "Restricted or identity-gated access"
+description = "Limit high-risk capabilities or tool access pending stronger evidence, controls or trusted-user verification."
+
+[actions.incident_assessment]
+priority = 4
+label = "Serious-incident assessment and reporting"
+description = "Assess whether the event meets applicable serious-incident criteria and preserve evidence for reporting."
+
+[actions.deployment_review]
+priority = 5
+label = "Deployment review or corrective measures"
+description = "Reassess deployment conditions, mitigations, availability and whether corrective measures are required."

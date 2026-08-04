@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Frontier Model Risk Trigger Map
+message: Please cite this repository if you use its taxonomy, data model or decision rules.
+type: software
+authors:
+  - family-names: Buzzetta
+    given-names: Giulio
+year: 2026
+license: MIT
+version: 0.1.0
+repository-code: https://github.com/G-BUZZ/frontier-model-risk-trigger-map
+keywords:
+  - frontier AI
+  - AI governance
+  - model evaluations
+  - systemic risk
+  - EU AI Act

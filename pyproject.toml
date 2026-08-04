@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frontier-model-risk-trigger-map"
+version = "0.1.0"
+description = "Evidence-first frontier model risk trigger mapping"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Giulio Buzzetta"}]
+dependencies = []
+
+[project.scripts]
+frontier-trigger-map = "frontier_trigger_map.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
