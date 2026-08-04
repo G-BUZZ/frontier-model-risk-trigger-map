@@ -55,7 +55,7 @@ toolbox create frontier-risk
 toolbox enter frontier-risk
 sudo dnf install -y git python3 make pandoc
 
-git clone <YOUR-REPOSITORY-URL>
+git clone https://github.com/G-BUZZ/frontier-model-risk-trigger-map.git
 cd frontier-model-risk-trigger-map
 make validate
 make build
