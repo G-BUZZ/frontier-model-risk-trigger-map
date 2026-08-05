@@ -19,7 +19,7 @@ Evidence
 → Risk Trigger  
 → Possible Governance Action
 
-An open-source, evidence-first repository that compares public system cards, model cards, government testing and independent evaluations of frontier AI models, then maps the evidence to **possible regulatory or supervisory actions**.
+An open-source, evidence-first repository that collects and structures public system cards, model cards, government testing and independent evaluations of frontier AI models, then maps the evidence to **possible regulatory or supervisory actions**.
 
 > **Status:** research prototype, v1.0.0. It is not a legal determination, a certification of safety, or a complete assessment of any provider.
 
@@ -51,6 +51,18 @@ The project deliberately avoids a single composite “safety score”. It produc
 - enhanced monitoring and serious-incident assessment;
 - deployment review or corrective measures.
 
+
+## Key Outputs
+
+The project currently provides:
+
+- frontier model registry;
+- evidence tracking dataset;
+- evaluation metadata;
+- risk trigger mapping;
+- governance case studies;
+- reproducible analysis workflow.
+
 ## Initial scope
 
 The seed dataset covers selected public materials available by **2026-08-04** for OpenAI GPT-5.6 Sol, Anthropic Claude Opus 4.8, Google Gemini 3.1 Pro and xAI Grok 4.5, with Grok 4.20 retained as a historical checkpoint, plus cross-model evidence from METR, the UK AI Security Institute and Apollo Research. Coverage is intentionally incomplete and should not be interpreted as a ranking of these models or providers.
@@ -63,6 +75,10 @@ Risk domains:
 4. harmful persuasion and manipulation;
 5. agentic behaviour, deception, scheming and evaluation integrity;
 6. deployment exposure and critical-infrastructure relevance.
+
+## Research Materials
+
+- [Methodological Limitations](docs/limitations.md)
 
 ## Repository structure
 
