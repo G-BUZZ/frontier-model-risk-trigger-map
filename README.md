@@ -132,6 +132,14 @@ Future work focuses on:
 - connecting frontier model capabilities with proportionate oversight mechanisms.
 
 
+
+## Research Materials
+
+- [Research Statement](docs/research_statement.md)
+- [Research Portfolio](docs/portfolio.md)
+- [Case Studies](docs/case_studies/README.md)
+- [Frontier AI Governance Direction](docs/frontier_ai_governance_direction.md)
+
 ## Licensing
 
 Code is licensed under the MIT License. Original documentation and structured data are made available under CC BY 4.0 unless a source imposes different terms. Source documents remain subject to their original licences and are linked rather than redistributed.
