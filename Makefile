@@ -20,3 +20,5 @@ brief:
 clean:
 	rm -f outputs/trigger_map.csv outputs/trigger_map.md
 	rm -rf outputs/rendered
+report:
+	python3 -m frontier_trigger_map.report
