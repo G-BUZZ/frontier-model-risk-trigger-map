@@ -4,3 +4,4 @@ anthropic-claude-opus-4.8,Anthropic,Claude Opus 4.8,2026-05-28,closed,API; Claud
 google-gemini-3.1-pro,Google DeepMind,Gemini 3.1 Pro,2026-02-19,closed,API; consumer and enterprise products,broad,SRC-GDM-001,active,Frontier Safety assessment focuses on Deep Think mode where specified.
 xai-grok-4.20,xAI,Grok 4.20,2026-04-07,closed,consumer products; API,broad,SRC-XAI-001,historical,Historical checkpoint retained for longitudinal comparison; superseded in seed current coverage by Grok 4.5.
 xai-grok-4.5,xAI,Grok 4.5,2026-07-14,closed,consumer products; API,broad,SRC-XAI-002,active,Current xAI seed checkpoint; card describes a highly agentic model and separates capability from safeguards evidence.
+anthropic-claude-opus-5,Anthropic,Claude Opus 5,2026-07-24,closed,API; Claude products,broad,SRC-ANT-002,active,Current Opus-tier checkpoint; retain Opus 4.8 for longitudinal comparison.
