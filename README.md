@@ -1,5 +1,9 @@
 # Frontier Model Risk Trigger Map
 
+[![Latest Release](https://img.shields.io/github/v/release/G-BUZZ/frontier-model-risk-trigger-map)](https://github.com/G-BUZZ/frontier-model-risk-trigger-map/releases)
+[![License](https://img.shields.io/github/license/G-BUZZ/frontier-model-risk-trigger-map)](LICENSE)
+[![Citation](https://img.shields.io/badge/citation-CFF-blue)](CITATION.cff)
+
 An open-source, evidence-first repository that compares public system cards, model cards, government testing and independent evaluations of frontier AI models, then maps the evidence to **possible regulatory or supervisory actions**.
 
 > **Status:** research prototype, v0.1. It is not a legal determination, a certification of safety, or a complete assessment of any provider.
