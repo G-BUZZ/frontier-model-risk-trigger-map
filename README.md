@@ -80,6 +80,27 @@ Risk domains:
 
 - [Methodological Limitations](docs/limitations.md)
 
+
+## Research Status
+
+This project is an open-source research prototype.
+
+Current work focuses on:
+
+- structuring frontier AI evidence;
+- tracking evaluation uncertainty;
+- connecting capability signals with governance triggers;
+- improving reproducible analysis workflows.
+
+Future iterations will focus on:
+
+- expanding independent evaluation coverage;
+- adding historical trend analysis;
+- improving evidence provenance;
+- incorporating additional governance case studies.
+
+The project is intended as a research and analysis tool, not as a certification system or a definitive assessment of model safety.
+
 ## Repository structure
 
 ```text
