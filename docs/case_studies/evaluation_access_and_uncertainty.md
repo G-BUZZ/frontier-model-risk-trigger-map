@@ -101,3 +101,32 @@ Limitations include:
 Frontier AI governance requires not only identifying harmful capabilities, but also understanding when uncertainty itself becomes a reason for additional oversight.
 
 The purpose of this case study is to demonstrate an evidence-to-governance workflow that connects evaluation limitations with proportionate supervisory responses.
+
+---
+
+# Repository References
+
+## Evidence Records
+
+- `E-EVAL-ACCESS-001` — Independent evaluation access limitation evidence.
+- `E-ANT5-BIO-CB1-001` — Example of provider-defined threshold assessment with evaluation limitations.
+
+## Evaluation Records
+
+- `E-OAI-AGENT-EVAL-001` — External evaluation with access limitations.
+- `E-ANT-CYBER-EVAL-001` — Provider evaluation with limited independence.
+
+## Related Sources
+
+- `SRC-APOLLO-001`
+- `SRC-OAI-001`
+- `SRC-ANT-002`
+
+## Interpretation
+
+These records illustrate that evaluation confidence depends not only on observed results, but also on:
+
+- evaluator independence;
+- model access conditions;
+- methodological transparency;
+- reproducibility.

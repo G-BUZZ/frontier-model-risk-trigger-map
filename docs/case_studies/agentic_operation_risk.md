@@ -103,3 +103,29 @@ This assessment is limited by:
 Frontier AI governance requires mechanisms that connect observable evidence to proportionate oversight.
 
 The purpose of this case study is to demonstrate an evidence-to-governance workflow, not to rank models or providers.
+
+---
+
+# Repository References
+
+## Evidence Records
+
+- `E-OAI-AGENT-001` — Agentic safety evaluation evidence for GPT-5.6 Sol.
+- `E-GDM-MISALIGN-001` — Situational awareness and agentic behaviour evidence.
+- `E-EVAL-ACCESS-001` — Evaluation access limitation evidence.
+
+## Evaluation Records
+
+- `E-OAI-AGENT-EVAL-001` — External agentic safety evaluation.
+
+## Trigger Records
+
+- `TH-OAI-002` — Agentic behaviour review trigger.
+
+## Interpretation
+
+These records demonstrate the evidence-to-governance workflow:
+
+Evidence → Evaluation → Confidence Assessment → Trigger → Possible Governance Action
+
+The references above do not indicate that a model is unsafe. They identify situations where additional evaluation or oversight may be justified.
