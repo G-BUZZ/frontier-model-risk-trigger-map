@@ -2,6 +2,72 @@
 
 > Research prototype. Triggers identify possible follow-up actions; they are not legal findings or safety certifications.
 
+## Anthropic — Claude Opus 5
+
+### autonomy: Additional targeted testing
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-AUT-RD-001;E-ANT5-AUT-ATM1-001`
+- **Rationale:** The evidence is concerning, mixed, near/at an alert point, or insufficiently resolved for the covered deployment configuration.
+- **Limitations:** The assessment uses provider-internal productivity evidence and an earlier model snapshot. Below-threshold performance does not exclude narrower automation, acceleration, or deployment-specific autonomy risks. | Threat-model applicability is not evidence that catastrophic misalignment is likely. The provider's conclusion depends on bounded behavioral evaluations and comparison with prior models.
+
+### bio_chem: Additional targeted testing
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-BIO-CB1-001;E-ANT5-BIO-CB2-001`
+- **Rationale:** The evidence is concerning, mixed, near/at an alert point, or insufficiently resolved for the covered deployment configuration.
+- **Limitations:** Anthropic states that it is difficult to determine with full confidence whether the CB-1 threshold is crossed. No dedicated chemical-weapons red-teaming, expert uplift trial, or human-participant evaluation was conducted for this release. The provider threshold is not an EU legal classification. | The determination relies on provider-run automated evaluations and additional non-public or incompletely described comparative evidence. No expert red-teaming or human uplift trial was conducted for this release.
+
+### bio_chem: Qualified independent evaluation
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-BIO-CB1-001;E-ANT5-BIO-CB2-001`
+- **Rationale:** High-concern or alert-threshold evidence is not independently corroborated in the current dataset.
+- **Limitations:** Anthropic states that it is difficult to determine with full confidence whether the CB-1 threshold is crossed. No dedicated chemical-weapons red-teaming, expert uplift trial, or human-participant evaluation was conducted for this release. The provider threshold is not an EU legal classification. | The determination relies on provider-run automated evaluations and additional non-public or incompletely described comparative evidence. No expert red-teaming or human uplift trial was conducted for this release.
+
+### bio_chem: Restricted or identity-gated access
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-BIO-CB1-001;E-ANT5-BIO-CB2-001`
+- **Rationale:** Broad deployment is combined with high-concern capability or safeguard evidence; capability-specific access controls should be assessed.
+- **Limitations:** Anthropic states that it is difficult to determine with full confidence whether the CB-1 threshold is crossed. No dedicated chemical-weapons red-teaming, expert uplift trial, or human-participant evaluation was conducted for this release. The provider threshold is not an EU legal classification. | The determination relies on provider-run automated evaluations and additional non-public or incompletely described comparative evidence. No expert red-teaming or human uplift trial was conducted for this release.
+
+### cyber: Additional targeted testing
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-CYBER-EXPB-001`
+- **Rationale:** The evidence is concerning, mixed, near/at an alert point, or insufficiently resolved for the covered deployment configuration.
+- **Limitations:** Production safety interventions were disabled. The benchmark uses sandboxed vulnerabilities and does not directly measure reliable compromise of real systems, operational scaling, or performance against defended critical infrastructure.
+
+### cyber: Qualified independent evaluation
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-CYBER-EXPB-001`
+- **Rationale:** High-concern or alert-threshold evidence is not independently corroborated in the current dataset.
+- **Limitations:** Production safety interventions were disabled. The benchmark uses sandboxed vulnerabilities and does not directly measure reliable compromise of real systems, operational scaling, or performance against defended critical infrastructure.
+
+### cyber: Restricted or identity-gated access
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-CYBER-EXPB-001`
+- **Rationale:** Broad deployment is combined with high-concern capability or safeguard evidence; capability-specific access controls should be assessed.
+- **Limitations:** Production safety interventions were disabled. The benchmark uses sandboxed vulnerabilities and does not directly measure reliable compromise of real systems, operational scaling, or performance against defended critical infrastructure.
+
+### persuasion: Additional targeted testing
+
+- **Trigger strength:** moderate
+- **Confidence:** low
+- **Evidence:** `E-ANT5-PERS-INFL-001`
+- **Rationale:** The evidence is concerning, mixed, near/at an alert point, or insufficiently resolved for the covered deployment configuration.
+- **Limitations:** The test uses a simulated environment and a helpful-only variant rather than the deployed model. Anthropic states that substantial human direction would still be required for many real-world operational steps.
+
 ## Google DeepMind — Gemini 3.1 Pro
 
 ### agentic_behavior: Additional targeted testing
