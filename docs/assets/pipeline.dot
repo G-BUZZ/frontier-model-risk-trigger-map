@@ -1,0 +1,24 @@
+digraph G {
+
+rankdir=TB;
+
+node [
+shape=box,
+style=rounded,
+fontname="Arial"
+];
+
+A [label="Frontier Models"];
+B [label="Source Registry"];
+C [label="Evidence Dataset"];
+D [label="Evaluation & Confidence Assessment"];
+E [label="Risk Trigger Map"];
+F [label="Possible Governance Action"];
+
+A -> B;
+B -> C;
+C -> D;
+D -> E;
+E -> F;
+
+}
