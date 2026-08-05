@@ -1,0 +1,4 @@
+trigger_event_id,model_id,evidence_reference,trigger_type,trigger_date,recommended_action,confidence_level,review_status,review_actor,notes
+TH-OAI-001,openai-gpt-5.6-sol,E-OAI-CYBER-001,cyber_capability_alert,2026-08-05,additional_security_review,medium,pending,oversight_body,Provider-defined High capability signal requiring contextual review.
+TH-OAI-002,openai-gpt-5.6-sol,E-OAI-AGENT-001,agentic_behaviour_review,2026-08-05,targeted_evaluation,medium,pending,independent_evaluator,External evaluation signal requiring replication and contextual analysis.
+TH-ANT-001,anthropic-claude-opus-5,E-ANT-AGENT-001,agentic_behaviour_review,2026-08-05,additional_evaluation,medium,pending,oversight_body,Provider and external evidence should be considered separately.
