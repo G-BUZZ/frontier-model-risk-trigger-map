@@ -101,6 +101,37 @@ python -m frontier_trigger_map.cli build
 - `docs/policy_brief.md`: 8–12 page equivalent policy briefing in English.
 - `docs/executive_summary_eu_ai_office.md`: one-page summary for the EU AI Office.
 
+
+## Research Motivation
+
+This project was created to explore how legal, security and open-source research methods can contribute to frontier AI governance.
+
+The goal is not to predict whether advanced AI systems are safe or unsafe.
+
+The goal is to build a reproducible workflow that connects:
+
+- publicly available evidence;
+- evaluation limitations;
+- uncertainty analysis;
+- governance decision points.
+
+The project reflects an interdisciplinary approach combining:
+
+- legal reasoning;
+- security risk analysis;
+- open-source intelligence methods;
+- evidence-based policy research.
+
+## Current Research Direction
+
+Future work focuses on:
+
+- expanding independent evaluation coverage;
+- improving evidence provenance;
+- analysing governance thresholds;
+- connecting frontier model capabilities with proportionate oversight mechanisms.
+
+
 ## Licensing
 
 Code is licensed under the MIT License. Original documentation and structured data are made available under CC BY 4.0 unless a source imposes different terms. Source documents remain subject to their original licences and are linked rather than redistributed.
