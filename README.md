@@ -6,7 +6,7 @@
 
 An open-source, evidence-first repository that compares public system cards, model cards, government testing and independent evaluations of frontier AI models, then maps the evidence to **possible regulatory or supervisory actions**.
 
-> **Status:** research prototype, v0.1. It is not a legal determination, a certification of safety, or a complete assessment of any provider.
+> **Status:** research prototype, v1.0.0. It is not a legal determination, a certification of safety, or a complete assessment of any provider.
 
 ## Why this project exists
 
