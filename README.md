@@ -104,3 +104,50 @@ Code is licensed under the MIT License. Original documentation and structured da
 ## Research integrity
 
 This repository is designed for reproducible public-interest research. It does not contain dangerous procedural content, model weights, private evaluation data or instructions for offensive use. Contributions should record both concerning and reassuring evidence and disclose conflicts, funding and evaluator access constraints.
+
+## Architecture
+
+The project follows an evidence-to-governance pipeline:
+
+```text
+Frontier Models
+        |
+        v
+Source Registry
+        |
+        v
+Evidence Dataset
+        |
+        v
+Evaluation Registry
+        |
+        v
+Evidence Confidence Assessment
+        |
+        v
+Risk Trigger Map
+        |
+        v
+Decision Framework
+        |
+        v
+Governance Report
+```
+## Research Principles
+
+The project follows five principles:
+
+- No universal risk scoring;
+- Separation between provider claims and independent evaluations;
+- Explicit uncertainty tracking;
+- Human review before governance decisions;
+- Reproducible evidence pipelines.
+
+## Outputs
+
+The repository generates:
+
+- trigger maps;
+- evidence summaries;
+- governance reports;
+- structured evaluation records.
